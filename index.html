@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Poppins:ital,wght@0,600;1,300;1,400&display=swap" rel="stylesheet">
+    <title>My To-Do List</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="container">
+        <div class="header-wrap">
+            <div class="logo">
+                <img src="img/pngwing.com.png" alt="logo">
+            </div>
+            <h1>My To-Do List</h1>
+        </div>
+        <div class="input-wrap">
+            <input type="text" id="inputTodo"  maxlength ="30" placeholder="Add New To-Do">
+            <span id="btn__add" onclick="newElement()">Add</span>
+        </div>
+    </header>
+    <div class="todos container">
+        <ul id="todos__list">
+            <li>Task one</li>
+            <li class="checked">Task two</li>
+            <li>Task three</li>
+        </ul>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background: linear-gradient(to top, #ffff99 0%, #66ccff 100%);
+}

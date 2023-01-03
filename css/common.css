@@ -1,0 +1,33 @@
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    background: linear-gradient(to bottom, #ffff99 0%, #66ccff 100%);
+    height: auto;
+}
+
+ul  {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

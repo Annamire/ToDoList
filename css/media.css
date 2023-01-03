@@ -1,0 +1,50 @@
+@media (max-width: 900px) {
+    body {
+        padding: 0 20px;
+    } 
+}
+
+@media (max-width: 800px) {
+    #todos__list li {
+        overflow: scroll;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 80px;
+        height: 50px;
+    }
+
+    h1 {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .header-wrap {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container {
+        padding: 20px;
+    }
+    #todos__list li {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    #todos__list li {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
